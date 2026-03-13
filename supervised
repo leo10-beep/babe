@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyP/vbEWxXaTRQkfqOSmQIT4",
+      "authorship_tag": "ABX9TyOm94buikF4cbriWWPjIZq7",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,14 +28,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 2,
+      "execution_count": 6,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 893
         },
         "id": "xHod3GPvY1GD",
-        "outputId": "ef12eeab-963f-4191-bb59-2fa25cf00f44"
+        "outputId": "1b3f1a57-fd93-4080-abb6-8043ad54a6bb"
       },
       "outputs": [
         {
@@ -43,15 +43,15 @@
           "data": {
             "text/plain": [
               "      EmpID              Name Gender Date_of_Birth  Age   Join_Date  \\\n",
-              "0     19575      Keven Norman      M        3/9/94   25     2/12/19   \n",
+              "0     19575      Keven Norman      M    03/09/1994   25  02/12/2019   \n",
               "1     19944    Kristin Werner      F    23/06/1994   26  13/01/2020   \n",
               "2     20055      Avery Barber      M    27/02/1996   24  14/11/2019   \n",
               "3     20058      Boris Gibson      M    29/09/1993   26  13/01/2020   \n",
-              "4     20332         Leif Mack      M        1/5/91   29      4/6/18   \n",
+              "4     20332         Leif Mack      M    01/05/1991   29  04/06/2018   \n",
               "...     ...               ...    ...           ...  ...         ...   \n",
               "1797  18835  Darius Wilkerson      M    14/01/1991   29  21/08/2017   \n",
               "1798  19066     Erick Ballard      M    29/08/1992   27  25/09/2017   \n",
-              "1799  21644   Lawerence Downs      M        5/7/91   29      1/4/19   \n",
+              "1799  21644   Lawerence Downs      M    05/07/1991   29  01/04/2019   \n",
               "1800  19673     Abdul Watkins      M    19/08/1972   47  26/12/2017   \n",
               "1801  19790   Chase Fernandez      M    20/03/1993   27  22/01/2018   \n",
               "\n",
@@ -98,7 +98,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-6a1d2fb9-786f-449d-a18b-895b857e3086\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-eeda9c9a-c84c-4708-acdb-e0838362dcbe\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -138,9 +138,9 @@
               "      <td>19575</td>\n",
               "      <td>Keven Norman</td>\n",
               "      <td>M</td>\n",
-              "      <td>3/9/94</td>\n",
+              "      <td>03/09/1994</td>\n",
               "      <td>25</td>\n",
-              "      <td>2/12/19</td>\n",
+              "      <td>02/12/2019</td>\n",
               "      <td>7</td>\n",
               "      <td>74922</td>\n",
               "      <td>71494</td>\n",
@@ -202,9 +202,9 @@
               "      <td>20332</td>\n",
               "      <td>Leif Mack</td>\n",
               "      <td>M</td>\n",
-              "      <td>1/5/91</td>\n",
+              "      <td>01/05/1991</td>\n",
               "      <td>29</td>\n",
-              "      <td>4/6/18</td>\n",
+              "      <td>04/06/2018</td>\n",
               "      <td>25</td>\n",
               "      <td>235405</td>\n",
               "      <td>143963</td>\n",
@@ -266,9 +266,9 @@
               "      <td>21644</td>\n",
               "      <td>Lawerence Downs</td>\n",
               "      <td>M</td>\n",
-              "      <td>5/7/91</td>\n",
+              "      <td>05/07/1991</td>\n",
               "      <td>29</td>\n",
-              "      <td>1/4/19</td>\n",
+              "      <td>01/04/2019</td>\n",
               "      <td>15</td>\n",
               "      <td>72547</td>\n",
               "      <td>71246</td>\n",
@@ -316,7 +316,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-6a1d2fb9-786f-449d-a18b-895b857e3086')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-eeda9c9a-c84c-4708-acdb-e0838362dcbe')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -368,12 +368,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-6a1d2fb9-786f-449d-a18b-895b857e3086 button.colab-df-convert');\n",
+              "        document.querySelector('#df-eeda9c9a-c84c-4708-acdb-e0838362dcbe button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-6a1d2fb9-786f-449d-a18b-895b857e3086');\n",
+              "        const element = document.querySelector('#df-eeda9c9a-c84c-4708-acdb-e0838362dcbe');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -393,7 +393,7 @@
               "  </div>\n",
               "\n",
               "\n",
-              "  <div id=\"id_487fb518-f05d-41c9-a135-1674f586ab49\">\n",
+              "  <div id=\"id_e2f60e4d-68d7-4a9c-8b83-a38a2889b12d\">\n",
               "    <style>\n",
               "      .colab-df-generate {\n",
               "        background-color: #E8F0FE;\n",
@@ -437,7 +437,7 @@
               "    <script>\n",
               "      (() => {\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#id_487fb518-f05d-41c9-a135-1674f586ab49 button.colab-df-generate');\n",
+              "        document.querySelector('#id_e2f60e4d-68d7-4a9c-8b83-a38a2889b12d button.colab-df-generate');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
@@ -454,7 +454,7 @@
             "application/vnd.google.colaboratory.intrinsic+json": {
               "type": "dataframe",
               "variable_name": "df",
-              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 1802,\n  \"fields\": [\n    {\n      \"column\": \"EmpID\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 5716,\n        \"min\": 1934,\n        \"max\": 23062,\n        \"num_unique_values\": 1802,\n        \"samples\": [\n          17453,\n          2944,\n          21782\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Name\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1802,\n        \"samples\": [\n          \"Javier Cordova\",\n          \"Willard Durham\",\n          \"Rosalyn Meyers\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Gender\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"F\",\n          \"M\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Date_of_Birth\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 1571,\n        \"samples\": [\n          \"31/05/1994\",\n          \"20/04/1990\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Age\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 5,\n        \"min\": 21,\n        \"max\": 56,\n        \"num_unique_values\": 34,\n        \"samples\": [\n          30,\n          42\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Join_Date\",\n      \"properties\": {\n        \"dtype\": \"object\",\n        \"num_unique_values\": 705,\n        \"samples\": [\n          \"29/11/2010\",\n          \"25/06/2015\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Tenure_in_org_in_months\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 35,\n        \"min\": 6,\n        \"max\": 190,\n        \"num_unique_values\": 156,\n        \"samples\": [\n          144,\n          19\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"GROSS\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 105513,\n        \"min\": 256,\n        \"max\": 1024965,\n        \"num_unique_values\": 1694,\n        \"samples\": [\n          114349,\n          102652\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Net_Pay\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 58592,\n        \"min\": 256,\n        \"max\": 660810,\n        \"num_unique_values\": 1792,\n        \"samples\": [\n          109811,\n          151138\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Deduction\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 57094,\n        \"min\": 0,\n        \"max\": 775212,\n        \"num_unique_values\": 1770,\n        \"samples\": [\n          137559,\n          72320\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Deduction_percentage\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 13.261774888593912,\n        \"min\": 0.0,\n        \"max\": 86.4,\n        \"num_unique_values\": 1461,\n        \"samples\": [\n          16.64,\n          4.39\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Designation\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 390,\n        \"samples\": [\n          \"Client Service Manager..\",\n          \"Solutions Architect.Senior.\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Department\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 154,\n        \"samples\": [\n          \"DPM Engineering\",\n          \"CIO Management\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 1802,\n  \"fields\": [\n    {\n      \"column\": \"EmpID\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 5716,\n        \"min\": 1934,\n        \"max\": 23062,\n        \"num_unique_values\": 1802,\n        \"samples\": [\n          17453,\n          2944,\n          21782\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Name\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1802,\n        \"samples\": [\n          \"Javier Cordova\",\n          \"Willard Durham\",\n          \"Rosalyn Meyers\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Gender\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          \"F\",\n          \"M\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Date_of_Birth\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 1571,\n        \"samples\": [\n          \"31/05/1994\",\n          \"20/04/1990\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Age\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 5,\n        \"min\": 21,\n        \"max\": 56,\n        \"num_unique_values\": 34,\n        \"samples\": [\n          30,\n          42\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Join_Date\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 705,\n        \"samples\": [\n          \"29/11/2010\",\n          \"25/06/2015\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Tenure_in_org_in_months\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 35,\n        \"min\": 6,\n        \"max\": 190,\n        \"num_unique_values\": 156,\n        \"samples\": [\n          144,\n          19\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"GROSS\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 105513,\n        \"min\": 256,\n        \"max\": 1024965,\n        \"num_unique_values\": 1694,\n        \"samples\": [\n          114349,\n          102652\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Net_Pay\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 58592,\n        \"min\": 256,\n        \"max\": 660810,\n        \"num_unique_values\": 1792,\n        \"samples\": [\n          109811,\n          151138\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Deduction\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 57094,\n        \"min\": 0,\n        \"max\": 775212,\n        \"num_unique_values\": 1770,\n        \"samples\": [\n          137559,\n          72320\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Deduction_percentage\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 13.261774888593912,\n        \"min\": 0.0,\n        \"max\": 86.4,\n        \"num_unique_values\": 1461,\n        \"samples\": [\n          16.64,\n          4.39\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Designation\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 390,\n        \"samples\": [\n          \"Client Service Manager..\",\n          \"Solutions Architect.Senior.\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Department\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 154,\n        \"samples\": [\n          \"DPM Engineering\",\n          \"CIO Management\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
             }
           },
           "metadata": {}
@@ -463,7 +463,7 @@
       "source": [
         "import pandas as pd\n",
         "\n",
-        "df = pd.read_csv('archive.zip')\n",
+        "df = pd.read_csv('goe.csv')\n",
         "display(df)"
       ]
     },
